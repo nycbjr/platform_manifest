@@ -312,9 +312,9 @@
 
   <project path="system/su" name="android_system_su" remote="aokp" revision="jb" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="aokp" revision="jb" />
 
 <!-- Begin IceCold's repos -->
+  <project path="platform_manifest" name="platform_manifest" remote="icecoldjelly" revision="jb" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="icecoldjelly" revision="jb" />
   <project path="system/vold" name="android_system_vold" remote="icecoldjelly" revision="jb"/>
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="icecoldjelly" revision="jb"/>
