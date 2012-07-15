@@ -187,7 +187,6 @@
   <project path="external/webp" name="platform/external/webp" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/webrtc" name="platform/external/webrtc" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/yaffs2" name="platform/external/yaffs2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/zlib" name="platform/external/zlib" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -214,16 +213,10 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aokp" revision="jb" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/ril" name="platform/hardware/ril" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="libnativehelper" name="platform/libnativehelper" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -314,7 +307,6 @@
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="system/vold" name="platform/system/vold" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
 
   <project path="vendor/aokp" name="vendor_aokp" remote="aokp" revision="jb" />
 
