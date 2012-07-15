@@ -25,7 +25,8 @@
            fetch="https://github.com/IceColdJelly/"
            revision="jb" />
 
-  <default remote="aosp"
+  <default revision="refs/tags/android-4.1.1_r1"
+           remote="aosp"
            sync-j="4" />
 
 <project path="build" name="platform/build" >
