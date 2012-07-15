@@ -324,6 +324,4 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="icecoldjelly" revision="jb" />
 
   <project path="external/bash" name="android_external_bash" remote="cm" revision="jellybean" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
-
 </manifest>
