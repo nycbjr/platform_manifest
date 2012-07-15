@@ -265,7 +265,6 @@
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -311,6 +310,7 @@
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/su" name="AOKP/android_system_su" remote="aokp" revision="jb" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="jellybean" />
+  <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="jb" />
 
 <!-- Begin IceCold's repos -->
   <project path="platform_manifest" name="platform_manifest" remote="icecoldjelly" revision="jb" />
