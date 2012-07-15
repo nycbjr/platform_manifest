@@ -324,4 +324,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="icecoldjelly" revision="jb" />
   <project path="hardware/ril" name="android_hardware_ril" remote="icecoldjelly" revision="jb" />
 
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="jellybean" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="jellybean" />
+
 </manifest>
