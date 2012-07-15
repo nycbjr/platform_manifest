@@ -331,6 +331,5 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="icecoldjelly" revision="jb" />
   <project path="frameworks/base" name="frameworks_base" remote="icecoldjelly" revision="jb" />
   <project path="hardware/ril" name="android_hardware_ril" remote="icecoldjelly" revision="jb" />
-  <project path="external/webkit" name="platform/external/webkit" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
 
 </manifest>
