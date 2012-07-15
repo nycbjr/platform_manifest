@@ -183,7 +183,6 @@
   <project path="external/tremolo" name="platform/external/tremolo" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/v8" name="platform/external/v8" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/valgrind" name="platform/external/valgrind" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb" />
   <project path="external/webp" name="platform/external/webp" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/webrtc" name="platform/external/webrtc" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -323,5 +322,6 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="icecoldjelly" revision="jb" />
   <project path="frameworks/base" name="frameworks_base" remote="icecoldjelly" revision="jb" />
   <project path="hardware/ril" name="android_hardware_ril" remote="icecoldjelly" revision="jb" />
+  <project path="external/webkit" name="platform/external/webkit" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
 
 </manifest>
