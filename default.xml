@@ -322,10 +322,11 @@
 
   <project path="platform_manifest" name="platform_manifest" remote="aokp" revision="jb" />
 
-<!-- Begin tg_jellybean's repos -->
+<!-- Begin IceCold's repos -->
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="icecoldjelly" revision="jb" />
   <project path="system/vold" name="android_system_vold" remote="icecoldjelly" revision="jb"/>
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="icecoldjelly" revision="jb"/>
+  <project path="vendor/htc/endeavoru" name="android_vendor_htc_endeavoru" remote="icecoldjelly" revision="jb"/>
   <project path="vendor/htc/endeavoru" name="android_vendor_htc_endeavoru" remote="icecoldjelly" revision="jb"/>
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="icecoldjelly" revision="jb" />
   <project path="frameworks/base" name="frameworks_base" remote="icecoldjelly" revision="jb" />
