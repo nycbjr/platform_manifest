@@ -29,7 +29,7 @@
            remote="aosp"
            sync-j="4" />
 
-<project path="build" name="platform/build" >
+<project path="build" name="android_build"  remote="icecoldjelly" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -40,12 +40,24 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
+  <project path="device/moto/common" name="device/moto/common" />
+  <project path="device/moto/stingray" name="device/moto/stingray" />
+  <project path="device/moto/wingray" name="device/moto/wingray" />
+  <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/crespo" name="device/samsung/crespo" />
+  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" />
+  <project path="device/samsung/toro" name="device/samsung/toro" />
+  <project path="device/samsung/torospr" name="device/samsung/torospr" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" />
+  <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" revision="refs/tags/android-4.1.1_r1_" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -197,6 +209,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
+  <project path="frameworks/native" name="platform/frameworks/native" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
@@ -232,18 +245,21 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -260,6 +276,7 @@
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -297,20 +314,10 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
+  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb" />
-  <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
-  <project path="system/su" name="AOKP/android_system_su" remote="aokp" revision="jb" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="jellybean" />
-  <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="jb" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="jellybean" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="jellybean" />
-  <project path="system/media" name="android_system_media" remote="cm" revision="jellybean" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="jellybean" />
-  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="cm" revision="jellybean" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cm" revision="jellybean" />
 
 
 <!-- Begin IceCold's repos -->
@@ -324,5 +331,6 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="icecoldjelly" revision="jb" />
   <project path="frameworks/base" name="frameworks_base" remote="icecoldjelly" revision="jb" />
   <project path="hardware/ril" name="android_hardware_ril" remote="icecoldjelly" revision="jb" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="icecoldjelly" revision="jb" />
 
 </manifest>
