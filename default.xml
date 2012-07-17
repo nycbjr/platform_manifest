@@ -238,7 +238,6 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -321,5 +320,6 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="icecoldjelly" revision="jb" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="icecoldjelly" revision="jb" />
 
 </manifest>
