@@ -325,9 +325,9 @@
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="icecoldjelly" revision="jb"/>
   <project path="vendor/tg" name="android_vendor_tg" remote="icecoldjelly" revision="jb"/>
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="icecoldjelly" revision="jb" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="tg" revision="jb" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="tg" revision="jb" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="tg" revision="jb" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="tg" revision="jb" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="tg" revision="jb" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="tg" revision="jb" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="icecoldjelly" revision="jb" />
 
