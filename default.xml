@@ -301,7 +301,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
@@ -331,5 +330,6 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="icecoldjelly" revision="jb" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME"  remote="icecoldjelly" revision="jb" />
+  <project path="system/core" name="system_core" remote="icecoldjelly" revision="jb" />
 
 </manifest>
