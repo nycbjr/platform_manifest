@@ -201,7 +201,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
@@ -331,5 +330,6 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME"  remote="icecoldjelly" revision="jb" />
   <project path="system/core" name="system_core" remote="icecoldjelly" revision="jb" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="icecoldjelly" revision="jellybean" />
+  <project path="frameworks/native" name="frameworks_native" remote="icecoldjelly" revision="jb" />
 
 </manifest>
