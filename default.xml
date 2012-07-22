@@ -309,7 +309,7 @@
 
 
 <!-- Begin AOKP repos -->
-  <project path="packages/apps/SwagPapers" name="packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
+  <project path="packages/apps/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
 
 
 <!-- Begin IceCold's repos -->
