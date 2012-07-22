@@ -189,7 +189,6 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
@@ -306,6 +305,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="jellybean" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="jellybean" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
 
 
 <!-- Begin AOKP repos -->
