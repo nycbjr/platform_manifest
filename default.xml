@@ -37,7 +37,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -309,7 +308,12 @@
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="jellybean" />
 
 
+<!-- Begin AOKP repos -->
+  <project path="packages/apps/SwagPapers" name="packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
+
+
 <!-- Begin IceCold's repos -->
+  <project path="bionic" name="android_bionic" remote="icecoldjelly" revision="jellybean" />
   <project path="platform_manifest" name="platform_manifest" remote="icecoldjelly" revision="jb" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="icecoldjelly" revision="jb" />
   <project path="system/vold" name="android_system_vold" remote="icecoldjelly" revision="jb"/>
