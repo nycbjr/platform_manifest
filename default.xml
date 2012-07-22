@@ -318,7 +318,7 @@
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="icecoldjelly" revision="jb"/>
   <project path="vendor/tg" name="android_vendor_tg" remote="icecoldjelly" revision="jb"/>
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="icecoldjelly" revision="jb" />
-  <project path="frameworks/base" name="frameworks_base" remote="icecoldjelly" revision="jb" />
+  <project path="frameworks/base" name="frameworks_base" remote="icecoldjelly" revision="jb-aokp" />
   <project path="hardware/ril" name="android_hardware_ril" remote="tg" revision="jb" />
   <project path="frameworks/av" name="android_frameworks_av" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="icecoldjelly" revision="jb" />
