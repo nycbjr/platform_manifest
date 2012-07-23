@@ -254,7 +254,6 @@
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -333,6 +332,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="icecoldjelly" revision="jb" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME"  remote="icecoldjelly" revision="jb" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="icecoldjelly" revision="jb" />
   <project path="system/core" name="android_system_core" remote="icecoldjelly" revision="jellybean" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="icecoldjelly" revision="jellybean" />
   <project path="frameworks/native" name="frameworks_native" remote="icecoldjelly" revision="jb" />
