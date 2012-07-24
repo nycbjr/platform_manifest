@@ -300,7 +300,6 @@
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="jellybean" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="jellybean" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
 
@@ -325,6 +324,7 @@
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="icecoldjelly" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="icecoldjelly" revision="jb" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="icecoldjelly" revision="jellybean" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="icecoldjelly" revision="jb" />
