@@ -220,7 +220,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
@@ -324,6 +323,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="icecoldjelly" revision="jb" />
 
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="icecoldjelly" revision="jb" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="icecoldjelly" revision="jellybean" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="icecoldjelly" revision="jb" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="icecoldjelly" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="icecoldjelly" revision="jb" />
