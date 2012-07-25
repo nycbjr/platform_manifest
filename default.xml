@@ -287,7 +287,6 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
 
 
@@ -339,6 +338,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="icecoldjelly" revision="jb" />
 
   <project path="system/core" name="android_system_core" remote="icecoldjelly" revision="jellybean" />
+  <project path="system/netd" name="android_system_netd" remote="icecoldjelly" revision="jellybean" />
   <project path="system/vold" name="android_system_vold" remote="icecoldjelly" revision="jb"/>
 
   <project path="vendor/htc" name="vendor_htc" remote="icecoldjelly" revision="ics"/>
