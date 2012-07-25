@@ -5,7 +5,7 @@ Getting Started
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-Big thanks goes to tgascoigne for OneX fixes
+Big thanks goes to tgascoigne and TeamNDVRu for OneX fixes
 
 
 To initialize your local repository using the IceColdJelly trees, use a command like this:
@@ -24,4 +24,4 @@ To build:
 
 OR if you have installed ccache use this build script for faster compilation
 
-    . vendor/tg/build.sh
+    . vendor/aokp/build.sh
