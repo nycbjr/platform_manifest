@@ -304,9 +304,9 @@
 
 
 <!-- Begin AOKP repos -->
-  <project path="hardware/qcom/audio" name="AOKP/android_hardware_qcom_audio" />
-  <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" />
-  <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" />
+  <project path="hardware/qcom/audio" name="AOKP/android_hardware_qcom_audio" remote="aokp" revision="jb" />
+  <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="aokp" revision="jb" />
+  <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="aokp" revision="jb" />
   <project path="packages/apps/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
 
 
