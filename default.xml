@@ -29,6 +29,9 @@
            fetch="https://github.com/tg-endeavoru-jellybean/"
            revision="jb" />
 
+  <remote name="github"
+           fetch="git://github.com/" />
+
   <default revision="refs/tags/android-4.1.1_r1"
            remote="aosp"
            sync-j="8" />
@@ -354,5 +357,10 @@
 
   <project path="vendor/htc" name="vendor_htc" remote="icecoldjelly" revision="ics"/>
   <project path="vendor/aokp" name="vendor_aokp" remote="icecoldjelly" revision="jb"/>
+
+
+<!-- Begin custom repos repos -->
+  <project path="external/polly" name="adrian-bl/android_pollyd" remote="github" revision="master" />
+  <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
 
 </manifest>
