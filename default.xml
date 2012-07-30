@@ -297,7 +297,6 @@
   <project path="external/lzo" name="android_external_lzo" remote="cm" revision="jellybean" />
   <project path="external/openvpn" name="android_external_openvpn" remote="cm" revision="jellybean"
 />
-  <project path="external/skia" name="android_external_skia" remote="cm" revision="jellybean" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="jellybean" />
@@ -313,6 +312,7 @@
 
 <!-- Begin AOKP repos -->
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="aokp" revision="jb" />
+  <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb" />
   <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="aokp" revision="jb" />
   <project path="hardware/qcom/audio" name="AOKP/android_hardware_qcom_audio" remote="aokp" revision="jb" />
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="aokp" revision="jb" />
