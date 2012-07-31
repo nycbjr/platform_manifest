@@ -8,9 +8,9 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 Big thanks goes to tgascoigne and TeamNDVRu for OneX fixes
 
 
-To initialize your local repository using the IceColdJelly trees, use a command like this:
+To initialize your local repository using the nycbjr trees, use a command like this:
 
-    repo init -u git://github.com/IceColdJelly/platform_manifest.git -b jb
+    repo init -u git://github.com/nycbjr/platform_manifest.git -b jb
 
 Then to sync up:
 
@@ -22,6 +22,3 @@ To build:
     lunch aokp_endeavoru-userdebug
     make -j6 bacon
 
-OR if you have installed ccache use this build script for faster compilation
-
-    . vendor/aokp/build.sh
