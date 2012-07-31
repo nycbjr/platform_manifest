@@ -355,7 +355,7 @@
 
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nycbjr" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nycbjr" revision="jb"/>
-  <project path="hardware/ril" name="android_hardware_ril" remote="tg" revision="jb" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="nycbjr" revision="jb" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="nycbjr" revision="jb" />
 
   <project path="system/core" name="android_system_core" remote="nycbjr" revision="jellybean" />
