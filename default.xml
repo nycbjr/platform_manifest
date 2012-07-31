@@ -11,6 +11,9 @@
             fetch="https://github.com/"
             revision="jb" />
 
+   <remote name="github"
+           fetch="git://github.com/" />
+
    <remote  name="aosp"
             fetch="https://android.googlesource.com/" />
 
