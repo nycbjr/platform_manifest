@@ -207,6 +207,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="frameworks_av" remote="baked" revision="jb" />
+  <project path="frameworks/base" name="frameworks_base" remote="baked" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -345,8 +346,6 @@
 
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="nycbjr" revision="jb"/>
   <project path="vendor/nycbjr/endeavoru" name="vendor_baked-bjr" remote="nycbjr" revision="master"/>
-
-  <project path="frameworks/base" name="frameworks_base" remote="nycbjr" revision="jb"/>
 
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nycbjr" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nycbjr" revision="jb"/>
