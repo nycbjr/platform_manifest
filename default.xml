@@ -345,7 +345,6 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nycbjr" revision="jb" />
 
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="nycbjr" revision="jb"/>
-  <project path="vendor/nycbjr/endeavoru" name="vendor_baked-bjr" remote="nycbjr" revision="master"/>
 
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nycbjr" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nycbjr" revision="jb"/>
