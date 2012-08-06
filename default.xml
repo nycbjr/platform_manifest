@@ -368,5 +368,5 @@
   <project path="external/polly" name="adrian-bl/android_pollyd" remote="github" revision="master" />
   <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
  
-  <project path="platform_manifest" name="platform_manifest" remote="nycbjr" revision="jb" />
+  <project path="platform_manifest_2" name="platform_manifest" remote="nycbjr" revision="jb" />
 </manifest>
